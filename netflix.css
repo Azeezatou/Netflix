@@ -1,0 +1,200 @@
+body{
+    margin: 20px ;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: rgb(245, 242, 242);
+    font-family: serif;
+}
+.background{
+    background-image: url("./images/netflix-background-4.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 90%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 90px;
+    width: 250px;
+    padding: 20px;
+}
+
+header a{
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: red;
+    text-decoration: none;
+    margin: 35px;
+    padding: 10px;
+    height: 35px;
+    width: 120px;
+    font-size: 32px;
+    text-align: center;
+}
+header a:hover{
+    background-color: rgb(229, 20, 20);
+    border: 1px solid rgb(217, 26, 26);
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    width: 60%;
+    margin: 80px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+main div h1{
+    font-size: 64px;
+}
+
+main div p{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+main div a{
+    color: rgb(245, 242, 242);
+    text-decoration: none;
+}
+main div a:hover{
+    text-decoration: underline;
+}
+button{
+    height: 55px;
+    width: 50%;
+    background-color: rgb(217, 26, 26);
+    border: 1px solid rgb(229, 20, 20);
+    border-radius: 5px;
+    font-size: 21px;
+    color: rgb(245, 242, 242);
+    margin: 10px;
+
+}
+.account{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 35px 0;
+}
+ input{
+    width: 70%;
+    height: 48px;
+    font-size: 25px;
+    background-color: rgba(69, 68, 68, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 9px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.footer p{
+    text-transform: capitalize;
+}
+@media only screen and (min-width:375px){
+    main div h1{
+        font-size: 45px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header img{
+        height: 50px;
+        width: 180px;
+        padding: 20px;
+    }
+    
+    header a{
+        color: white;
+        border: 1px solid red;
+        border-radius: 4px;
+        background-color: red;
+        text-decoration: none;
+        margin: 20px 28px;
+        padding: 3px;
+        height: 33px;
+        width: 155px;
+        font-size: 21px;
+        text-align: center;
+    }
+    header a:hover{
+        background-color: rgb(229, 20, 20);
+        border: 1px solid rgb(217, 26, 26);
+    }
+    .container{
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 6px;
+        width: 70%;
+        margin: 80px auto;
+        text-align: center;
+        padding: 3px;
+    }
+    main div h1{
+        font-size: 48px;
+    }
+    
+    main div p{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    main div a{
+        color: rgb(245, 242, 242);
+        text-decoration: none;
+    }
+    main div a:hover{
+        text-decoration: underline;
+    }
+    button{
+        height: 55px;
+        width: 65%;
+        background-color: rgb(217, 26, 26);
+        border: 1px solid rgb(229, 20, 20);
+        border-radius: 5px;
+        font-size: 21px;
+        color: rgb(245, 242, 242);
+        margin: 10px;
+    
+    }
+    .account{
+        text-transform: capitalize;
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    input{
+        width: 80%;
+        height: 48px;
+        font-size: 20px;
+        background-color: rgba(69, 68, 68, 0.8);
+        color: rgb(0, 0, 0);
+        padding: 9px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+     }
+     .footer p{
+        font-size: 25px;
+        /* margin-right: 4px ;
+        padding-right: 4px; */
+    }
+}
