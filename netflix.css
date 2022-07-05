@@ -110,7 +110,7 @@ button{
 .footer p{
     text-transform: capitalize;
 }
-@media only screen and (min-width:375px){
+@media only screen and (min-width:480px){
     main div h1{
         font-size: 45px;
     }
